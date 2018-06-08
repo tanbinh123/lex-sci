@@ -51,6 +51,8 @@ public class QuestionsApplication implements CommandLineRunner {
 			System.out.println("******Answer count: " +answerService.total());
 		}
 		//System.out.println("******Question count: " +questionService.total());
-		System.out.println("******the end############");
+
+		System.out.println("******the end*****************");
+
 	}
 }

@@ -18,7 +18,7 @@
 
 > (The class diagram will be added later to show the attributes of each class and how they relate).
 
-## RESTful APIs
+## RESTful APIs for Question
 
 * HTTP GET /questions	        return all questions in JSON format
 * HTTP GET /questions/<Id>      return question with question Id as <Id>

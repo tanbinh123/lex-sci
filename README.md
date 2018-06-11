@@ -12,6 +12,10 @@
 4. H2 in memory database driver. 
 
 ## Three classes are used to represent and questions, answers and ratings to a answer. 
+* class Question
+* class Answer
+* class AnswerRating
+
 > (The class diagram will be added later to show the attributes of each class and how they relate).
 
 ## RESTful APIs
@@ -32,7 +36,7 @@
     }
 
 * HTTP PUT /questions/<Id>	update the question with Id by given JSON data
-
+>
     {
         "questionContent": "What is Newton's Third Law?",
         "submittedBy": "Chris Jahnson",
@@ -42,7 +46,7 @@
     }
  
 * HTTP PATCH /questions/<Id>	update the question with Id by given JSON data
-
+>
     {
         "questionContent": "What is Newton's Third Law?",
         "submittedBy": "Chris Jahnson",

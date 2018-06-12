@@ -70,4 +70,6 @@
     }
 
  * HTTP DELETE /questions/<Id>	delete the question with Id
+    
+ * HTTP GET for Search  /questions/search/findByQuestionContent{?questionContent}
 

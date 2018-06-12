@@ -105,7 +105,7 @@
     "answeredBy": "Ying Zhang",
     "answeredTime": "2018-06-11",
     "questionContent": "Spring"
-}
+    }
 
  * HTTP DELETE /answers/<Id>	delete the answer with Id
     

@@ -96,7 +96,6 @@
     "answeredBy": "Ying",
     "answeredTime": "2018-06-11",
     "questionContent": "Spring"
-}
     }
  
 * HTTP PATCH /questions/<Id>	update the answer with Id by given JSON data

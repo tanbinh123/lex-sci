@@ -87,12 +87,11 @@
     "answeredBy": "Jane Robert",
     "answeredTime": "2018-06-11",
     "questionContent": "Spring"
-}
+    }
 
 * HTTP PUT /answers/<Id>	update the answer with Id by given JSON data
 >
     {
-        {
     "answerContent": "Spring is a lightweight framework. It can be thought of as a framework of frameworks because it provides support to various frameworks such as Struts, Hibernate, Tapestry, EJB, JSF etc. The framework, in broader sense, can be defined as a structure where we find solution of the various technical problems.",
     "answeredBy": "Ying",
     "answeredTime": "2018-06-11",

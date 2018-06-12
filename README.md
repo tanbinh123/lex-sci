@@ -73,3 +73,44 @@
     
  * HTTP GET for Search  /questions/search/findByQuestionContent{?questionContent}
 
+## RESTful APIs for Answer
+
+* HTTP GET /answers	            return all answers in JSON format
+* HTTP GET /answers/<Id>        return answer with answer Id as <Id>
+* HTTP POST/answers	            create a answer with given JSON data
+> 
+    Header: Content-Type
+    Value: application/json
+    body JSON
+    {
+    "answerContent": "The Spring framework comprises several modules such as IOC, AOP, DAO, Context, ORM, WEB MVC etc.",
+    "answeredBy": "Jane Robert",
+    "answeredTime": "2018-06-11",
+    "questionContent": "Spring"
+}
+
+* HTTP PUT /answers/<Id>	update the answer with Id by given JSON data
+>
+    {
+        {
+    "answerContent": "Spring is a lightweight framework. It can be thought of as a framework of frameworks because it provides support to various frameworks such as Struts, Hibernate, Tapestry, EJB, JSF etc. The framework, in broader sense, can be defined as a structure where we find solution of the various technical problems.",
+    "answeredBy": "Ying",
+    "answeredTime": "2018-06-11",
+    "questionContent": "Spring"
+}
+    }
+ 
+* HTTP PATCH /questions/<Id>	update the answer with Id by given JSON data
+>
+    {
+    "answerContent": "Spring is a lightweight framework. It can be thought of as a framework of frameworks because it provides support to various frameworks such as Struts, Hibernate, Tapestry, EJB, JSF etc. The framework, in broader sense, can be defined as a structure where we find solution of the various technical problems.",
+    "answeredBy": "Ying Zhang",
+    "answeredTime": "2018-06-11",
+    "questionContent": "Spring"
+}
+
+ * HTTP DELETE /answers/<Id>	delete the answer with Id
+    
+ * HTTP GET for Search  /answers/search/findByQuestion{?question}
+
+
